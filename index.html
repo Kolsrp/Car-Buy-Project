@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body class="bg-body-tertiary">
+   <!--===================== narvar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
+    <div class="container-fluid">
+      <h3 class="navbar-brand" href="#">Car website</h3>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./buy.html">How it work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./buycar.html">Buy Car</a>
+          </li><li class="nav-item">
+            <a class="nav-link" href="#">Feebacks</a>
+          </li><li class="nav-item">
+            </ul>
+          </li>
+        <div class="d-flex ms-4" role="search">
+            <div class="d-flex align-items-center gap-4 px-5">
+                <i data-lucide="search"></i>
+                <i data-lucide="shopping-cart"></i>
+
+            </div>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn1" type="submit">Search</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ===================== BAnner -->
+   <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="">
+                        <h1 class="">
+                            Lamboraghini uruss Rental <span>Service</span>
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio libero
+                             nemo eum deleniti obcaecati laboriosam, odit dolores veniam ratione blanditiis!</p>
+                        <button>Explore</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="">
+                        <img src="./img/slider_1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+   <!-- ===================== -->
+    <div class="search d-flex justify-content-center">
+        <div class="search_main w-75 rounded-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        <div class="search1">
+                            <h5 class="pb-2">Location</h5>
+                            <div class="d-flex align-items-center gap-4"><i data-lucide="map-pin" width="22"></i>
+                               <select class="form-select" aria-label="Default select example">
+                                <option selected> Add Date</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="search1">
+                            <h5 class="pb-2">Pick-up Data</h5>
+                            <div class="d-flex align-items-center gap-4"><i data-lucide="map-pin" width="22"></i>
+                             <select class="form-select" aria-label="Default select example">
+                                <option selected> Add Date</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="search1">
+                            <h5 class="pb-2">Return Date</h5>
+                            <div class="d-flex align-items-center gap-4"><i data-lucide="map-pin" width="22"></i>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected> Add Date</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="search1">
+                           <button>Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================== -->
+    <div class="work">
+        <div class="container">
+            <div class="main_heading text-center">
+                <h2>How It <span>Works</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <!-- ======== -->
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="work1 rounded-2">
+                        <div class="d-flex justify-content-center mb-5">
+                        <div class="work_icon">
+                        <i data-lucide="map-pin" width="40"></i>
+                        </div>
+                        </div>
+                        <h5>Choose Location</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ipsa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work1 rounded-2">
+                        <div class="d-flex justify-content-center mb-5">
+                        <div class="work_icon">
+                        <i data-lucide="calendar" width="40"></i>
+                        </div>
+                        </div>
+                        <h5>Pick-up Date</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ipsa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work1 rounded-2">
+                        <div class="d-flex justify-content-center mb-5">
+                        <div class="work_icon">
+                        <i data-lucide="car-front" width="40"></i>
+                        </div>
+                       </div>
+                        <h5>Book Your Car</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ipsa.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== -->
+            <div class="text-center mt-5">
+                <button class="btn btn-primary bg-danger">Start Booking</button>
+            </div>
+        </div>
+    </div>    
+    <!-- ======= -->
+     <div class="gallery text-center">
+        <div class="container">
+            <div class="main_heading text-center">
+                <h2>Gallery<span>Rent Your Urus Today</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-3">
+                    <img src="./img/car2.png" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="./img/car3.png" alt="">
+
+                </div>
+                <div class="col-md-3">
+                    <img src="./img/car4.png" alt="">
+
+                </div>
+                <div class="col-md-3">
+                    <img src="./img/car5.png" alt="">
+
+                </div>
+                <div class="col-md-3">
+                    <img src="./img/car6.png" alt="">
+
+                </div>
+                <div class="col-md-3">
+                    <img src="./img/car7.png" alt="">
+
+                </div>
+                <div class="col-md-3">
+                    <img src="./img/car8.png" alt="">
+
+                </div>
+                <div class="col-md-3">
+                    <img src="./img/car9.png" alt="">
+
+                </div>
+            </div>
+            <button class="btn btn-primary bg-danger">Rent Now <i data-lucide="move-right" class="ps-1"></i></button>
+        </div>
+     </div>
+     <!-- ===================== -->
+      <!-- Slider main container -->
+      <div class="swiper mySwiper">
+        <div class="main_heading text-center">
+            <h2>What Our<span> Client</span> Say!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="swiper-wrapper py-5">
+          <div class="swiper-slide rounded-2">
+            <div class="d-flex justify-content-center">
+            <img src="./img/img2/toji.jpg" alt="" class="rounded-circle">
+            </div>
+            <div class="py-3">
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+            </div>
+            <div class="">
+                <h5>Waleed codes</h5>
+                <h6 class="text-muted">Full Stack Enginner</h6>
+            </div>
+            <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit esse repellendus quia. 
+                Fuga obcaecati numquam at aliquid nesciunt ducimus.</p>
+                
+          </div>
+          <div class="swiper-slide rounded-2">
+            <div class="d-flex justify-content-center">
+            <img src="./img/img2/toji.jpg" alt="" class="rounded-circle">
+            </div>
+            <div class="py-3">
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+            </div>
+            <div class="">
+                <h5>Waleed codes</h5>
+                <h6 class="text-muted">Full Stack Enginner</h6>
+            </div>
+            <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit esse repellendus quia. 
+                Fuga obcaecati numquam at aliquid nesciunt ducimus.</p>
+                
+          </div>
+          <div class="swiper-slide rounded-2">
+            <div class="d-flex justify-content-center">
+            <img src="./img/img2/toji.jpg" alt="" class="rounded-circle">
+            </div>
+            <div class="py-3">
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+            </div>
+            <div class="">
+                <h5>Waleed codes</h5>
+                <h6 class="text-muted">Full Stack Enginner</h6>
+            </div>
+            <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit esse repellendus quia. 
+                Fuga obcaecati numquam at aliquid nesciunt ducimus.</p>
+                
+          </div>
+          <div class="swiper-slide rounded-2">
+            <div class="d-flex justify-content-center">
+            <img src="./img/img2/toji.jpg" alt="" class="rounded-circle">
+            </div>
+            <div class="py-3">
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+            </div>
+            <div class="">
+                <h5>Waleed codes</h5>
+                <h6 class="text-muted">Full Stack Enginner</h6>
+            </div>
+            <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit esse repellendus quia. 
+                Fuga obcaecati numquam at aliquid nesciunt ducimus.</p>
+                
+          </div>
+          <div class="swiper-slide rounded-2">
+            <div class="d-flex justify-content-center">
+            <img src="./img/img2/toji.jpg" alt="" class="rounded-circle">
+            </div>
+            <div class="py-3">
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+                <i data-lucide="star" class="text-warning" width="18"></i>
+            </div>
+            <div class="">
+                <h5>Waleed codes</h5>
+                <h6 class="text-muted">Full Stack Enginner</h6>
+            </div>
+            <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit esse repellendus quia. 
+                Fuga obcaecati numquam at aliquid nesciunt ducimus.</p>
+                
+          </div>
+          <!-- ================== -->
+            <div class="swiper-pagination"></div>
+      </div>
+      <!-- ====================Contact us -->
+       <div class="contact">
+        <div class="main_heading text-center">
+            <h2><span>Contact</span>Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <!-- ============= -->
+                <div class="col-md-6">
+                    <div class="contact_sec1">
+                        <form>
+                            <div class="d-flex gap-4">
+                            <input type="text" class="form-control" placeholder="Enter Your Name" required>
+                            <input type="email" class="form-control" placeholder="Enter Your email" required>
+                            <input type="number" class="form-control" placeholder="Enter Your Number" required>
+                            </div>
+                            <textarea class="form-control my-3" placeholder="Message" rows="8" required></textarea>
+                            <button class=" w-100 text-center" type="submit">Submit</button>
+                          </form>
+                    </div>
+                </div>
+                <!-- ============ -->
+                <div class="col-md-6">
+                    <div class="contact_sec1">
+                        <img src="./img/main3.png" class="img-fluid">
+                    </div>
+                </div>
+                <!-- ============== -->
+            </div>
+        </div>
+       </div>
+       <!-- ================= -->
+       <!-- Footer -->
+       <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- Development version -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+<!-- Production version -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/car.js"></script>
+</html>

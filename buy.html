@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/buy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body class="bg-body-tertiary">
+    <!--===================== narvar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
+     <div class="container-fluid">
+        <h3 class="navbar-brand" href="#">Car website</h3>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarScroll">
+         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+           <li class="nav-item">
+             <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="./buy.html">How it work</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="./buycar.html">Buy Car</a>
+           </li><li class="nav-item">
+             <a class="nav-link" href="#">Feebacks</a>
+           </li><li class="nav-item">
+             </ul>
+           </li>
+           <div class="d-flex ms-4" role="search">
+            <div class="d-flex align-items-center gap-4 px-5">
+                <i data-lucide="search"></i>
+                <i data-lucide="shopping-cart" id="btnShop"></i>
+                <div class="count">0</div>
+            </div>
+            <input class="form-control me-2" type="search" id="searchBar"   placeholder="Search" aria-label="Search">
+            <button class="btn1" type="submit">Search</button>
+        </div>
+    </div>
+</div>
+</nav>
+<!-- ======================= -->
+            <div class="order" id="orderSection" style="">
+            <button id="close" class="btn float-end"><i class="fa-solid fa-delete-left"></i></button>
+            <h3 class="mb-5 border-bottom py-4 border-dark border-3">Product Order</h3>
+            <div class="row g-3 d-flex align-items-center" id="showCart">
+                <!-- Product items will be dynamically added here -->
+            </div>
+            <!-- Total Section -->
+            <div class="d-flex mt-5 justify-content-between border-top py-4 border-3 border-danger">
+                <h4 class="text-info">Total :</h4>
+                <h4 class="total">0.00$</h4>
+            </div>
+            <!-- Action Buttons -->
+            <div>
+                <button type="button" class="btn btn-danger w-50" id="cancel">Cancel</button>
+                <a href="./pay.html"><button type="button" class="btn btn-success" id="check"   style="width: 45%;">Check</button>
+                </a>
+            </div>
+            </div>
+   <!-- ===================== BAnner -->
+    <div class="banner">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6">
+                     <div class="">
+                         <h1 class="">
+                             Lamboraghini uruss Rental <span>Service</span>
+                         </h1>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio libero
+                              nemo eum deleniti obcaecati laboriosam, odit dolores veniam ratione blanditiis!</p>
+                         <button>Explore</button>
+                     </div>
+                 </div>
+                 <div class="col-md-6">
+                     <div class="">
+                         <img src="./img/slider_1.png" class="img-fluid" alt="">
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+    <!-- ===================== -->
+    <section class="car" id="cars">
+      <div class="car_heading text-center mb-5" >
+          <h2>All <span>Cars</span><br>We have all types of cars</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      </div>    
+      <!-- ========== -->
+      <div class="cars-container container" >
+          <!-- ===== -->
+          <div class="box">
+              <img src="./img/img2/car1.jpg" alt="Porsche Car 1">
+              <h2>Porsche Car 1</h2>
+          </div>
+          <!-- ===== -->
+          <div class="box">
+              <img src="./img/img2/car2.jpg" alt="Porsche Car 2">
+              <h2>Porsche Car 2</h2>
+          </div>
+          <!-- ===== -->
+          <div class="box">
+              <img src="./img/img2/car3.jpg" alt="Porsche Car 3">
+              <h2>Porsche Car 3</h2>
+          </div>
+          <!-- ===== -->
+          <div class="box">
+              <img src="./img/img2/car4.jpg" alt="Porsche Car 4">
+              <h2>Porsche Car 4</h2>
+          </div>
+          <!-- ===== -->
+          <div class="box">
+              <img src="./img/img2/car5.jpg" alt="Porsche Car 5">
+              <h2>Porsche Car 5</h2>
+          </div>
+          <!-- ===== -->
+          <div class="box">
+              <img src="./img/img2/car4.jpg" alt="Porsche Car 6">
+              <h2>Porsche Car 6</h2>
+          </div>
+           <!-- ===== -->
+           <div class="box">
+              <img src="./img/img2/car6.jpg" alt="Porsche Car 6">
+              <h2>Porsche Car 7</h2>
+          </div>
+           <!-- ===== -->
+           <div class="box">
+              <img src="./img/img2/car1.jpg" alt="Porsche Car 6">
+              <h2>Porsche Car 8</h2>
+          </div>
+
+       </div>
+  </section>
+  <br>
+    <!-- ================= -->
+    <section class="about container" id="about">
+        <div class="about-img">
+            <img src="./img/img2/about.png" alt="About Cars">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Us</span><br>Cheap Prices With Quality Cars</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <!-- ============ -->
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    <!-- ======================= -->
+     <br>
+    
+        <div class="car_heading text-center mb-5">
+            <h2>Our Car <span>Is Always</span><br>Excellent</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>   
+        <!-- =========== -->
+        <section class="parts" id="parts">
+        <div class="parts-container container" id="proitem" >
+            <!-- ======== -->
+          
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-FTdLl9KOoA5e7L5vlEpYyNb2Aq1DsWm/7YufZkqxI6ClGJlEazAQY6K5/tb9pmjm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGJ8a7AC44/nmnwQfCJbBwQ3D6B04wVwrPxGCsOJcQyiAeqPuB6B0yK5EE8" crossorigin="anonymous"></script>   
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- Development version -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+<!-- Production version -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/buy.js"></script>
